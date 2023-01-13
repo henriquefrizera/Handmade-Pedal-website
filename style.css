@@ -34,7 +34,7 @@ nav a:hover {
 }
 
 .produtos {
-    width: 1500px;
+    width: 940px;
     margin: 0 auto;
     padding: 50px 0;
 }
@@ -69,7 +69,14 @@ nav a:hover {
     font-weight: bold;
 }
 
-.produto.descricao {
+.pedal-img {
+    scale: 1;
+    position: relative;
+    width: 100%;
+    padding: 5% 0;
+}
+
+.produto-descricao {
     font-size: 18px;
 }
 
@@ -77,10 +84,6 @@ nav a:hover {
     font-size: 22px;
     font-weight: bold;
     margin-top: 10px;
-}
-
-#tone-bender-mkii {
-    scale: 0.4;
 }
 
 footer {
@@ -93,4 +96,13 @@ footer {
     color: #FFFFFF;
     font-size: 13px;
     margin: 20px 0 0;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
 }
